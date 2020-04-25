@@ -1,13 +1,12 @@
 # Function cleaning the given wordlits from words with '(' or ')'.
 # For example in this folder we have txt file 'wordlist.txt'.
 
-
-
 outFile = 'cleaned_wordlist.txt'
 
 
 def clean_wordlist():
     inFile = input('Enter the name of the text file to clean: ')
+
     # Open given file for read only.
     fin = open(inFile, "r")
     # Create a new file for selected words.
